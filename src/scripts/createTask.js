@@ -15,7 +15,7 @@ export const onCreateTask = () => {
   const newTaskList = tasksList.concat({
     text,
     done: false,
-    createDate: new Date().toISOString(),
+    /*createDate: new Date().toISOString(),*/
     id: Math.random().toString()
   })
 
