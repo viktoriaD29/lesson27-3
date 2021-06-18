@@ -1,9 +1,8 @@
-const storage = {};
-
 export const setItem = (key, value) => {
-  Object.assign(storage, { [key]: value });
+  localStorage.getItem(key, JSON.stringify(value))
+  
 };
 
 export const getItem = (key) => {
-  storage[key];
+  JSON.parse(localStorage.getItem(key))
 };

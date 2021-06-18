@@ -1,4 +1,4 @@
-/*import { renderTasks } from './render.js';
+import { renderTasks } from './render.js';
 import { getItem, setItem } from './storage.js';
 
 export const onToggleTask = (e) => {
@@ -25,4 +25,4 @@ export const onToggleTask = (e) => {
   setItem('tasksList', newTaskList);
 
   renderTasks();
-};*/
+};
